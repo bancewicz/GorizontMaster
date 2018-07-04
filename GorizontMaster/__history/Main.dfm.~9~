@@ -1,0 +1,166 @@
+object FMain: TFMain
+  Left = 0
+  Top = 0
+  Caption = 'GorizontMaster'
+  ClientHeight = 806
+  ClientWidth = 1239
+  Color = clBtnFace
+  Font.Charset = RUSSIAN_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = 'Arial Narrow'
+  Font.Style = []
+  Menu = MainMenu
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 16
+  object Splitter1: TSplitter
+    Left = 401
+    Top = 29
+    Height = 751
+    ResizeStyle = rsUpdate
+    ExplicitLeft = 760
+    ExplicitTop = 368
+    ExplicitHeight = 100
+  end
+  object MStatusBar: TStatusBar
+    Left = 0
+    Top = 780
+    Width = 1239
+    Height = 26
+    Panels = <>
+    ExplicitTop = 760
+  end
+  object MToolBar: TToolBar
+    Left = 0
+    Top = 0
+    Width = 1239
+    Height = 29
+    Caption = 'MToolBar'
+    TabOrder = 1
+    ExplicitLeft = 232
+    ExplicitTop = 120
+    ExplicitWidth = 150
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 29
+    Width = 401
+    Height = 751
+    Align = alLeft
+    TabOrder = 2
+    object MTreeView: TTreeView
+      Left = 1
+      Top = 1
+      Width = 399
+      Height = 749
+      Align = alClient
+      Indent = 19
+      TabOrder = 0
+      ExplicitLeft = 208
+      ExplicitTop = 328
+      ExplicitWidth = 121
+      ExplicitHeight = 97
+    end
+  end
+  object Panel2: TPanel
+    Left = 404
+    Top = 29
+    Width = 835
+    Height = 751
+    Align = alClient
+    TabOrder = 3
+    ExplicitLeft = 888
+    ExplicitTop = 336
+    ExplicitWidth = 185
+    ExplicitHeight = 41
+    object Splitter2: TSplitter
+      Left = 1
+      Top = 529
+      Width = 833
+      Height = 3
+      Cursor = crVSplit
+      Align = alTop
+      ResizeStyle = rsUpdate
+      ExplicitWidth = 221
+    end
+    object Panel3: TPanel
+      Left = 1
+      Top = 1
+      Width = 833
+      Height = 528
+      Align = alTop
+      TabOrder = 0
+      object MPageControl: TPageControl
+        Left = 1
+        Top = 1
+        Width = 831
+        Height = 526
+        Align = alClient
+        TabOrder = 0
+        ExplicitLeft = 312
+        ExplicitTop = 272
+        ExplicitWidth = 289
+        ExplicitHeight = 193
+      end
+    end
+    object Panel4: TPanel
+      Left = 1
+      Top = 532
+      Width = 833
+      Height = 218
+      Align = alClient
+      TabOrder = 1
+      ExplicitLeft = 504
+      ExplicitTop = 632
+      ExplicitWidth = 185
+      ExplicitHeight = 41
+      object LPageControl: TPageControl
+        Left = 1
+        Top = 1
+        Width = 831
+        Height = 216
+        Align = alClient
+        TabOrder = 0
+        ExplicitLeft = 272
+        ExplicitTop = 20
+        ExplicitWidth = 289
+        ExplicitHeight = 193
+      end
+    end
+  end
+  object MainMenu: TMainMenu
+    Left = 296
+    Top = 85
+    object N1: TMenuItem
+      Caption = #1060#1072#1081#1083
+      object N8: TMenuItem
+        Caption = #1054#1090#1082#1088#1099#1090#1100
+      end
+      object N9: TMenuItem
+        Caption = #1057#1086#1093#1088#1072#1085#1080#1090#1100' '#1082#1072#1082' ...'
+      end
+      object N10: TMenuItem
+        Caption = #1042#1099#1093#1086#1076
+      end
+    end
+    object N2: TMenuItem
+      Caption = #1053#1072#1089#1090#1088#1086#1081#1082#1080
+    end
+    object N3: TMenuItem
+      Caption = #1042#1080#1076
+    end
+    object N4: TMenuItem
+      Caption = #1048#1085#1089#1090#1088#1091#1084#1077#1085#1090#1099
+    end
+    object N5: TMenuItem
+      Caption = #1057#1087#1088#1072#1074#1082#1072
+      object N6: TMenuItem
+        Caption = #1056#1091#1082#1086#1074#1086#1076#1089#1090#1074#1086' '#1087#1086#1083#1100#1079#1086#1074#1072#1090#1077#1083#1103
+      end
+      object N7: TMenuItem
+        Caption = #1054' '#1087#1088#1086#1075#1088#1072#1084#1084#1077
+      end
+    end
+  end
+end

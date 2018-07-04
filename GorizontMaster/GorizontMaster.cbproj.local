@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.381,=C:\Users\Bancevich\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.909,C:\Users\Bancevich\Documents\Embarcadero\Studio\Projects\Unit1.dfm=E:\IMSK\prj RAD Studio\GorizontMaster\Main.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.283,=C:\Users\Bancevich\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.191,C:\Users\Bancevich\Documents\Embarcadero\Studio\Projects\Project1.cbproj=E:\IMSK\prj RAD Studio\GorizontMaster\GorizontMaster.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.081,C:\Users\Bancevich\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=E:\IMSK\prj RAD Studio\GorizontMaster\GorizontMasterPrj.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.177,=C:\Users\Bancevich\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.512,=C:\Users\Bancevich\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.909,C:\Users\Bancevich\Documents\Embarcadero\Studio\Projects\Unit1.h=E:\IMSK\prj RAD Studio\GorizontMaster\Main.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.909,C:\Users\Bancevich\Documents\Embarcadero\Studio\Projects\Unit1.cpp=E:\IMSK\prj RAD Studio\GorizontMaster\Main.cpp</Transaction>
+    <Transaction>2018.07.04 11:22:36.917,=E:\IMSK\prj RAD Studio\GorizontMaster\Unit1.cpp</Transaction>
+    <Transaction>2018.07.04 11:22:51.452,E:\IMSK\prj RAD Studio\GorizontMaster\Channel.h=E:\IMSK\prj RAD Studio\GorizontMaster\Unit1.h</Transaction>
+    <Transaction>2018.07.04 11:22:51.452,E:\IMSK\prj RAD Studio\GorizontMaster\Channel.cpp=E:\IMSK\prj RAD Studio\GorizontMaster\Unit1.cpp</Transaction>
+    <Transaction>2018.07.04 12:14:18.585,=E:\IMSK\prj RAD Studio\GorizontMaster\Unit1.cpp</Transaction>
+    <Transaction>2018.07.04 12:14:30.466,E:\IMSK\prj RAD Studio\GorizontMaster\TCOMPort.h=E:\IMSK\prj RAD Studio\GorizontMaster\Unit1.h</Transaction>
+    <Transaction>2018.07.04 12:14:30.466,E:\IMSK\prj RAD Studio\GorizontMaster\TCOMPort.cpp=E:\IMSK\prj RAD Studio\GorizontMaster\Unit1.cpp</Transaction>
+  </Transactions>
+</BorlandProject>

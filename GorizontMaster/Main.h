@@ -1,0 +1,47 @@
+//---------------------------------------------------------------------------
+
+#ifndef MainH
+#define MainH
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Forms.hpp>
+#include <Vcl.ExtCtrls.hpp>
+#include <Vcl.ComCtrls.hpp>
+#include <Vcl.Menus.hpp>
+#include <Vcl.ToolWin.hpp>
+//---------------------------------------------------------------------------
+class TFMain : public TForm
+{
+__published:	// IDE-managed Components
+	TStatusBar *MStatusBar;
+	TToolBar *MToolBar;
+	TPanel *Panel1;
+	TSplitter *Splitter1;
+	TPanel *Panel2;
+	TPanel *Panel3;
+	TSplitter *Splitter2;
+	TPanel *Panel4;
+	TTreeView *MTreeView;
+	TPageControl *MPageControl;
+	TPageControl *LPageControl;
+	TMainMenu *MainMenu;
+	TMenuItem *N1;
+	TMenuItem *N2;
+	TMenuItem *N3;
+	TMenuItem *N4;
+	TMenuItem *MMHelp;
+	TMenuItem *MManual;
+	TMenuItem *MMAbout;
+	TMenuItem *N8;
+	TMenuItem *N9;
+	TMenuItem *N10;
+private:	// User declarations
+public:		// User declarations
+	__fastcall TFMain(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TFMain *FMain;
+//---------------------------------------------------------------------------
+#endif

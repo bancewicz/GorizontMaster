@@ -1,0 +1,79 @@
+object FMain: TFMain
+  Left = 0
+  Top = 0
+  Caption = 'FMain'
+  ClientHeight = 719
+  ClientWidth = 1099
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Splitter1: TSplitter
+    Left = 377
+    Top = 0
+    Height = 719
+    ResizeStyle = rsUpdate
+    ExplicitLeft = 704
+    ExplicitTop = 472
+    ExplicitHeight = 100
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 377
+    Height = 719
+    Align = alLeft
+    TabOrder = 0
+    ExplicitHeight = 667
+  end
+  object Panel2: TPanel
+    Left = 380
+    Top = 0
+    Width = 719
+    Height = 719
+    Align = alClient
+    Caption = 'Panel2'
+    TabOrder = 1
+    ExplicitLeft = 808
+    ExplicitTop = 488
+    ExplicitWidth = 185
+    ExplicitHeight = 41
+    object Splitter2: TSplitter
+      Left = 1
+      Top = 465
+      Width = 717
+      Height = 3
+      Cursor = crVSplit
+      Align = alTop
+      ResizeStyle = rsUpdate
+      ExplicitWidth = 253
+    end
+    object Panel3: TPanel
+      Left = 1
+      Top = 1
+      Width = 717
+      Height = 464
+      Align = alTop
+      Caption = 'Panel3'
+      TabOrder = 0
+    end
+    object Panel4: TPanel
+      Left = 1
+      Top = 468
+      Width = 717
+      Height = 250
+      Align = alClient
+      Caption = 'Panel4'
+      TabOrder = 1
+      ExplicitLeft = 464
+      ExplicitTop = 624
+      ExplicitWidth = 185
+      ExplicitHeight = 41
+    end
+  end
+end
